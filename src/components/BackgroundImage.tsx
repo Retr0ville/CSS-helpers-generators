@@ -1,5 +1,6 @@
 import * as React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import '../background.css';
 
 const BackgroundImage = () => {
   return (
@@ -14,7 +15,7 @@ const BackgroundImage = () => {
       <section>
         <div>
           <div>docker</div>
-          <div>main</div>
+          <div className='background-image'>main</div>
           <div>Github</div>
         </div>
         <div>
